@@ -1,0 +1,32 @@
+/*Font stuff*/
+h1{color:rgb(156, 18, 145); opacity: .70;}
+h1{background-color: rgb(199, 126, 126);}
+h2{background-color: hsl(30,0%, 50%);}
+h3{font-weight: normal;}
+h3{font-family: Arial, Helvetica, sans-serif;font-size: 50px; font-style:oblique;}
+h4{font-family: 'Times New Roman', Times, serif;}
+@font-face{font-family: 'Long Cang';
+src:url(/images/LongCang-Regular.ttf)}
+ p {font-size: 30px; font-family:'Long Cang'; text-transform: uppercase;}
+.fl{font-family: 'Times New Roman', Times, serif; text-transform: none;}
+
+.one {vertical-align: text-top;}
+.two {vertical-align: text-bottom;}
+.three {vertical-align: middle;}
+.tt{text-indent: 100px;}
+.tr{text-shadow:10px 10px 10px #000000}
+.ff::first-letter{font-size: 200px;}
+.b:link{color: darkblue;}
+.b:visited{color: darkgreen;}
+.c:hover{color: royalblue;}
+.c:active{color: saddlebrown;}
+.g{height: 75%; width: 75%;background-color: lawngreen;}
+div.box{height:300px; width: 300px; background-color: indianred;}
+.min{min-width: 650px; max-width: 650px; min-height: 200px; max-height: 200px; overflow: scroll;}
+
+.bws{border-style: solid;}
+.bwss{border-style: groove;}
+.bwI{border-width: 20px 10px 20px 10px;}
+.bwII{border-width: thick;}
+.bwc{border-color: indigo;}
+.pad{width: 20px;}

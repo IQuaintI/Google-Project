@@ -69,7 +69,327 @@
                 <br>
                 <a href="http://www.CNN.com" target="_blank">CNN (Opens new window)</a>
                 <br>
+                <figure>
                 <img src="images/boat-lettering.jpg" alt="An expensive boat" title="big boats" height="300" width="300">
-                
+                <figcaption>An expensive boat that tears through the open seas with the confidence that an expensive boat would have</figcaption>
+                </figure>
+
+                <br>
+
+                <table>
+                    <tr>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>7</td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table>
+                    <table>
+                        <tr>
+                        <th></th>
+                        <th scope="col">Saturday</th>
+                        <th scope="col">Sunday</th>
+                        </tr>
+                        <tr>
+                        <th scope="row">Tickets sold:</th>
+                        <td>120</td>
+                        <td>135</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Total sales:</th>
+                        <td>$600</td>
+                        <td>$675</td>
+                        </tr>
+                        </table>
+                </table>
+
+                <br>
+
+                <table>
+                        <tr>
+                        <th></th>
+                        <th scope="col">Hats</th>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                        <th scope="col">Pants</th>
+                        <th scope="col">Jackets</th>
+                        </tr>
+                        <tr>
+                        <th></th>
+                        <th scope="row">Hours</th>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                        <th scope="row">Minutes</th>
+                            <td>5</td>
+                            <td>9</td>
+                            <td>8</td>
+                        <th scope="row">Seconds</th>
+                        </tr>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table>
+                        <tr>
+                        <th></th>
+                        <th>9am</th>
+                        <th>10am</th>
+                        <th>11am</th>
+                        <th>12am</th>
+                        </tr>
+                        <tr>
+                        <th>Monday</th>
+                        <td colspan="2">Geography</td>
+                        <td>Math</td>
+                        <td>Art</td>
+                        </tr>
+                        <tr>
+                        <th>Tuesday</th>
+                        <td colspan="3">Gym</td>
+                        <td>Home Ec</td>
+                        </tr>
+                 </table>
+
+                <br>
+
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Earth</th>
+                        <th>Fire</th>
+                        <th>Wind</th>
+                        <th>Sea</th>
+                    </tr>
+                    <tr>
+                        <th>Pawn</th>
+                        <td colspan="3">Song</td>
+                        <td>Heart</td>
+                    </tr>
+                        <th>Door</th>
+                        <td colspan="2">Red</td>
+                        <td rowspan="2">Blue</td>
+                    <tr>
+                    <tr>
+                        <th></th>
+                        <th>Yesterday</th>
+                        <td>True</td>
+                        <td>Yew</td>
+                        <th></th>
+                    </tr>
+                </table>
+
+            <table>
+                <thead>
+                    <tr>   
+                        <th>Date</th>
+                        <th>Income</th>
+                        <th>Expediture</th>
+                    </tr
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>January</th>
+                        <td>22</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <th>March</th>
+                        <td>14</td>
+                        <td>46</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>9087</td>
+                        <td>4532</td>
+                    </tr>
+                </tfoot>
+            </table>
+<!--Forms-->
+            <br>
+                <form action="example.com" method="GET">
+                    <p>This is where the form control appears (GET is used for short forms or when you are just retrieving data from a server)</p>
+                    <p>Why are you here?</p>
+                    <textarea name="answer" cols="20" rows="4">Why...</textarea>
+                    
+                </form>
+                <br>
+                <form action="example.com" method="POST">
+                    <p>This is where the control form appears (POST is safer and can be used for longer submissions, uploads, and sensitive files) </p>
+                    <p>Username:<input type="text" name="username" size="15" maxlength="4"></p>
+                    <p>Password:<input type="password" name="password" size="15" maxlength="4"</p>
+                </form>
+                <br>
+                <form action="example.com" method="GET">
+                    <P>Favorite Movie</P>
+                   <input type="radio" name="movie" value="Spirited Away"> Spirited Away 
+                   <input type="radio" name="movie" value="Finding Nemo"> Finding Nemo 
+                   <input type="radio" name="movie" value="Cars"> Cars
+                </form>
+                <br>
+                <form action="example.com" method="GET">
+                    <p>What consoles do you own?</p>
+                    <input type="checkbox" name="service" value="Xbox"> Xbox
+                    <input type="checkbox" name="service" value="Switch"> Switch
+                    <input type="checkbox" name="service" value="PS4"> PS4
+                </form>
+                <br>
+                <form action="example.com" method="GET">
+                    <p>Which browser do you prefer?</p>
+                    <select name="browser">
+                    <option value="Chrome">Chrome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Edge">Edge</option>
+                    </select>
+                </form>
+                <br>
+                <form action="example.com" method="GET"></form>
+                    <p>Which colors do you like (You can select more by holding CONTROL and clicking)</p>
+                    <select name="colors" size="3" multiple="multiple">
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Purple">Purple</option>
+                    <option value="Black">Black</option>
+                    </select>
+                    <form action="example.com" method="POST"></form>
+
+                <!--FILES MUST USE POST-->
+
+                    <p>Upload the assignment</p>
+                    <input type="file" name="assignment">
+                    <input type="submit" value="submit">
+                <br>
+                <form action="example.com" method="GET">
+                    <p>Subscribe to my email list:</p>
+                    <input type="text" name="email" />
+                    <input type="image" src="/images/free-youtube-subscribe-button-png-download-by-alfredocreates_1x.webp" width="100" height="100" />
+                </form>
+                <br>
+                <form action="example.com" method="GET">
+                    <button><img src="/images/check.png" alt="check" width="100" height="100">Add</button>
+                    <input type="hidden" name="bookmark" value="stuff">
+                </form>
+                <br>
+                <form>
+                <label>Age:<input type="text" name="age"></label>
+                <br/>
+                Gender:
+                <input id="female" type="radio" name="gender" value="f">
+                <label for="female">Female</label>
+                <input id="male" type="radio" name="gender" value="m">
+                <label for="male">Male</label>
+                </form>
+                <br>
+                <form>
+
+                    <!--Form Validation is typically done in JavaScript but it is doable in HTML5-->
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <label>Email:
+                    <input type="text" name="email"></label>
+                    <label>Mobile:
+                    <input type="text" name="mobile"></label>
+                    <label>Address:
+                    <input type="text" name="mobile"></label>
+                </fieldset>
+                </form>
+                <br>
+                <form action="example.com" method="POST">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" required="required">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required="required">
+                    <input type="submit" value="Submit">
+                </form>
+                <br>
+                <form action="example.com" method="POST">
+                    <label for="username">Birthday:</label>
+                    <input type="date" name="depart">
+                    <input type="submit" value="Submit">
+                </form>
+                <form action="example.com">
+                    <p>Please enter your email:</p>
+                    <input type="email" name="email">
+                    <input type="submit"value="Submit">
+                </form>
+                <br>
+                <form action="example.com">
+                    <p>Enter website:</p>
+                    <input type="url" name="website">
+                    <input type="submit" value="Submit">
+                </form>
+                <br>
+                <form action="http://example.com">
+                    <p>Search</p>
+                    <input type="search" name="search" placeholder="Enter">
+                    <input type="submit" value="Search">
+                </form>
+<!--Extra Markups-->           
+                <!--Use this format if you do not want things to show up on browser window-->
+                <!--DOCTYPE is used for stating the version of HTML that you are using such as <!DOCTYPE HTML> for HTML5-->
+                <!--An ID attribute can uniquely modify something to be targeted with CSS-->
+                <!--A CLASS attribute can be used to name a group of things to be targeted with CSS-->
+                <!--Block level elements (<h1>,<p>,<ul>) start a new line in the browser window-->
+                <!--Inline elements (<a>,<b>,<em>,<img>) continue on the same line that it is written on-->
+                <!--<div> (<div id="header">) is used to create a block level grouping-->
+                <!--<span> acts like an inline <div> and is used for: containing a section of text where there is no suitable alternative element, containing a number of inline elements, or by simply controlling the specific text with CSS-->
+                <!--<iframe> (Requires src, height, and width) is a window to another page in that is cut out of the page you are on - it is typically used for embedding a Google Maps into the page-->
+                <br>
+                <iframe 
+                width="450"
+                height="350"
+                src="https://www.firehousesubs.com/our-food/hot-specialty-subs/">
+                </iframe>
+                <br>
+                <!--<meta> tags exist to tell search engines what the site is about-->
+                <!--<!DOCTYPE html>
+                <html>
+                <head>
+		            <title>Information About Your Pages</title>
+		             <meta name="description"
+			             content="An Essay on Installation Art" />
+		            <meta name="keywords"
+			            content="installation, art, opinion" />
+		             <meta name="robots"
+			            content="nofollow" />
+		            <meta http-equiv="author"
+			            content="Jon Duckett" />
+		            <meta http-equiv="pragma"
+			            content="no-cache" />
+		            <meta http-equiv="expires"
+			            content="Fri, 04 Apr 2014 23:59:59 GMT" />
+                </head>
+                <body>
+                </body>
+                </html>-->
+                <!--pragma prevets the browser from caching the page-->
+                <!--expires tells how when a page should no longer be cached-->
+                <br/>
+                <video src="/images/DASH_720.mp4"
+                poster="/images/VSy6kJDNq2pSXsCzb6cvYF.jpg"
+                width="400" width="300"
+                preload="auto" controls loop><p>A cat and a cup</p></video>
+                <br>
+                <audio controls preload="auto">
+                    <source src="/images/04-dua_lipa-physical.mp3">
+                </audio>
+
+
         </body>
 </html>
